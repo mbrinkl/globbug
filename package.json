@@ -1,0 +1,12 @@
+{
+  "name": "globbug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "broken": "parcel './src/*.html'",
+    "works": "parcel ./src/*.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  }
+}
